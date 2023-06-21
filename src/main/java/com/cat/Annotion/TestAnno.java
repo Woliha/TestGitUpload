@@ -12,16 +12,13 @@ public class TestAnno {
     public void Test2(){
         System.out.println("====Test2====");
     }
-
     @TestAnnotation
     public void Test3(){
         System.out.println("====Test3====");
     }
-
     public void Test4(){
         System.out.println("====Test4====");
     }
-
     public TestAnno() throws InvocationTargetException, IllegalAccessException {
         Class c = TestAnno.class;
         Method[] declaredMethods = c.getDeclaredMethods();
